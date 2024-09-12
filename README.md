@@ -1,6 +1,15 @@
 # OpenGL Practice
 > This repository contains OpenGL code for learning computer graphics.
 
+## How to Build?
+
+```sh
+cd build
+cmake ..
+make
+./OpenGLProject
+```
+
 ## Computer Graphics Through OpenGL: From Theory to Experiments (4th Edition)
 
 This repository contains code from the book **"Computer Graphics Through OpenGL: From Theory to Experiments, 4th Edition"** by **Sumanta Guha**. The code is intended for educational and non-commercial use.
