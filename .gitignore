@@ -1,0 +1,39 @@
+# 빌드 디렉터리 무시
+/build/
+
+# 라이브러리 및 의존성 무시
+/lib/
+/include/
+
+# CMake 관련 파일들 무시
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 바이너리 및 오브젝트 파일 무시
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.dll
+*.dylib
+
+# 로그, 디버그 파일 무시
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Visual Studio Code 작업 폴더 무시
+.vscode/
+
+# 시스템 파일 무시
+.DS_Store
+Thumbs.db
+
+# 기타 임시 파일들 무시
+*.bak
+*.orig

@@ -16,3 +16,8 @@ add_executable(OpenGLProject src/main.cpp)
 
 # 라이브러리 링크
 target_link_libraries(OpenGLProject OpenGL::GL GLEW::GLEW glut)
+
+# build 디렉터리 자동 생성
+if(NOT EXISTS "${CMAKE_SOURCE_DIR}/build")
+    file(MAKE_DIRECTORY "${CMAKE_SOURCE_DIR}/build")
+endif()
