@@ -1,3 +1,6 @@
+# OpenGL Practice
+This repository contains OpenGL code for learning computer graphics.
+
 ## Prerequisites
 
 To build and run this project on an **Apple Silicon-based macOS**, you need to install several dependencies such as `Homebrew`, `cmake`, and OpenGL-related libraries like `GLEW`, `GLM`, and `FreeGLUT`. Follow the steps below to set up your development environment.
